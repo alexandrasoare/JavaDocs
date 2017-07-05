@@ -1,5 +1,8 @@
 package exercise.exercise4;
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 
 /**
@@ -23,7 +26,7 @@ import java.util.Iterator;
  * @author Cristian.Dumitru
  * @since 7/3/2017.
  */
-public class MyImplementedList<E> {
+public class MyImplementedList<E> implements Iterable {
 
     /**
      * The maximum accepted load property of the data structure.
@@ -168,9 +171,21 @@ public class MyImplementedList<E> {
 
     //TODO l) implement the iterator() method in order to use the foreach statement over your data structure - HINT Iterable interface
     //TODO and implement a custom iterator for your custom data structure - methods boolean hasNext(), Object next() and void remove()
-
+    public Iterator iterator() {
+        MyIterator it = new MyIterator(this, 0);
+        return it;
+    }
 
     //TODO m) implement a method, that uses a Comparator, for your data structure to sort the elements
     //TODO you should name it: void sort(Comparator<? super E> c)
     //TODO create a custom comparator that compares objects by their "what you want" :D - HINT Comparator interface
+    public void sort(Comparator<? super E> c) {
+        for(int i = 0; i < size; i++)
+            for(int j = 0; j < size; j++)
+                if(c.compare((E)elementData[i], (E)elementData[j]) < 0) {
+                    Object aux = elementData[i];
+                    elementData[i] = elementData[j];
+                    elementData[j] = aux;
+                }
+    }
 }

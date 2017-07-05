@@ -3,6 +3,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Comparator;
+
 /**
  * //TODO Uncomment those lines after developing the {@link MyImplementedList} methods.
  * //TODO You should start checking your code by running the specific tests, after developing the add(Object o_O) method.
@@ -107,13 +109,17 @@ public class Exercise4Test {
 
     @Test
     public void testForeachMethodsOverStringList() {
-//        for (Object obj : testingStringValues) {
-//            System.out.println(obj);
-//        }
+        for (Object obj : testingStringValues) {
+            System.out.println(obj);
+        }
     }
 
     @Test
     public void testSortMethodOverStringList() {
-//        testingStringValues.sort(//TODO add comparator);
+        testingStringValues.sort(new Comparator<String>() {
+            public int compare(String o1, String o2) {
+                return o1.compareTo(o2);
+            }
+        });
     }
 }
