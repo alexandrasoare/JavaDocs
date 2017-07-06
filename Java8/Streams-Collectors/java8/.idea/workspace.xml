@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9612316-831d-408e-b885-76bffa00ee02" name="Default" comment="" />
+    <list default="true" id="d9612316-831d-408e-b885-76bffa00ee02" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/CollectTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/CollectTest.java" />
+    </list>
     <ignored path="javaDay.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="OccurrencesTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OccurrencesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/OccurrencesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="140">
+              <caret line="35" column="85" lean-forward="true" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -45,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CollectTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/CollectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="36" column="68" lean-forward="false" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+            <state relative-caret-position="-166">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -120,8 +125,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java_8_training/problems/collectors/Dish.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/ArithmeticAndReducingCollectorsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/PartitioningAndGroupingTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/CollectTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/OccurrencesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/CollectTest.java" />
       </list>
     </option>
   </component>
@@ -370,59 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OccurrencesTest.occurrencesForAListOfSentences">
-    <configuration default="false" name="ArithmeticAndReducingCollectorsTest.leastCaloricDishMEAT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.java_8_training.problems.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="examples-and-exercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.java_8_training.problems.collectors" />
-      <option name="MAIN_CLASS_NAME" value="com.java_8_training.problems.collectors.ArithmeticAndReducingCollectorsTest" />
-      <option name="METHOD_NAME" value="leastCaloricDishMEAT" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArithmeticAndReducingCollectorsTest.statisticsForVegetarianDishes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.java_8_training.problems.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="examples-and-exercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.java_8_training.problems.collectors" />
-      <option name="MAIN_CLASS_NAME" value="com.java_8_training.problems.collectors.ArithmeticAndReducingCollectorsTest" />
-      <option name="METHOD_NAME" value="statisticsForVegetarianDishes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CollectTest.streamToTreeSet">
     <configuration default="false" name="PartitioningAndGroupingTest.groupCounting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -488,6 +441,58 @@
       <option name="PACKAGE_NAME" value="com.java_8_training.problems.collectors" />
       <option name="MAIN_CLASS_NAME" value="com.java_8_training.problems.collectors.OccurrencesTest" />
       <option name="METHOD_NAME" value="occurrencesForAListOfSentences" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectTest.noDuplicatedWithStreams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java_8_training.problems.collectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="examples-and-exercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.java_8_training.problems.collectors" />
+      <option name="MAIN_CLASS_NAME" value="com.java_8_training.problems.collectors.CollectTest" />
+      <option name="METHOD_NAME" value="noDuplicatedWithStreams" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectTest.streamToTreeSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java_8_training.problems.collectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="examples-and-exercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.java_8_training.problems.collectors" />
+      <option name="MAIN_CLASS_NAME" value="com.java_8_training.problems.collectors.CollectTest" />
+      <option name="METHOD_NAME" value="streamToTreeSet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -912,19 +917,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ArithmeticAndReducingCollectorsTest.leastCaloricDishMEAT" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArithmeticAndReducingCollectorsTest.statisticsForVegetarianDishes" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PartitioningAndGroupingTest.groupCounting" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAWord" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAListOfSentences" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PartitioningAndGroupingTest.groupCounting" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAWord" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAListOfSentences" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectTest.noDuplicatedWithStreams" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectTest.streamToTreeSet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAListOfSentences" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAWord" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PartitioningAndGroupingTest.groupCounting" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArithmeticAndReducingCollectorsTest.statisticsForVegetarianDishes" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArithmeticAndReducingCollectorsTest.leastCaloricDishMEAT" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectTest.streamToTreeSet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectTest.noDuplicatedWithStreams" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAListOfSentences" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OccurrencesTest.occurrencesForAWord" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PartitioningAndGroupingTest.groupCounting" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -979,7 +984,7 @@
       <workItem from="1499110201210" duration="29566000" />
       <workItem from="1499279101843" duration="8631000" />
       <workItem from="1499319957793" duration="381000" />
-      <workItem from="1499339477133" duration="11954000" />
+      <workItem from="1499339477133" duration="12280000" />
     </task>
     <servers />
   </component>
@@ -989,6 +994,15 @@
     </history-entry>
     <history-entry file="ArithmeticAndReducingCollectorsTest_statisticsForVegetarianDishes - 2017.07.06 at 17h 26m 22s.xml">
       <configuration name="ArithmeticAndReducingCollectorsTest.statisticsForVegetarianDishes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectTest_noDuplicatedWithStreams - 2017.07.06 at 17h 45m 14s.xml">
+      <configuration name="CollectTest.noDuplicatedWithStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectTest_noDuplicatedWithStreams - 2017.07.06 at 17h 45m 27s.xml">
+      <configuration name="CollectTest.noDuplicatedWithStreams" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectTest_streamToTreeSet - 2017.07.06 at 17h 46m 35s.xml">
+      <configuration name="CollectTest.streamToTreeSet" configurationId="JUnit" />
     </history-entry>
     <history-entry file="OccurrencesTest_occurrencesForAListOfSentences - 2017.07.06 at 17h 39m 32s.xml">
       <configuration name="OccurrencesTest.occurrencesForAListOfSentences" configurationId="JUnit" />
@@ -1005,18 +1019,9 @@
     <history-entry file="PartitioningAndGroupingTest_partitionDishes - 2017.07.06 at 16h 54m 11s.xml">
       <configuration name="PartitioningAndGroupingTest.partitionDishes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionsAndTradesPart1Test_findTradersFromCambridgeSortedByName - 2016.04.21 at 14h 22m 26s.xml">
-      <configuration name="TransactionsAndTradesPart1Test.findTradersFromCambridgeSortedByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionsAndTradesPart1Test_findUniqueCitiesWhereTradersWork - 2016.04.21 at 14h 14m 56s.xml">
-      <configuration name="TransactionsAndTradesPart1Test.findUniqueCitiesWhereTradersWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionsAndTradesPart1Test_moveMilaneseTradersToCambridge - 2016.04.21 at 14h 33m 29s.xml">
-      <configuration name="TransactionsAndTradesPart1Test.moveMilaneseTradersToCambridge" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71758000" />
+    <option name="totallyTimeSpent" value="72084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1416,18 +1421,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/CollectTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/OccurrencesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="36" column="68" lean-forward="false" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        <state relative-caret-position="140">
+          <caret line="35" column="85" lean-forward="true" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/OccurrencesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java_8_training/problems/collectors/CollectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="-166">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="15" />
           <folding />
         </state>
       </provider>
