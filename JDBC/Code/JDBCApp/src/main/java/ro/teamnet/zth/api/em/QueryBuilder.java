@@ -67,7 +67,7 @@ public class QueryBuilder {
         boolean whereAdded = false;
         if(conditions != null && !conditions.isEmpty()) {
             for(Condition condition : conditions) {
-                sql.append(whereAdded ? " and" : " where ").append(condition.getColumnName()).append("=")
+                sql.append(whereAdded ? " and " : " where ").append(condition.getColumnName()).append("=")
                         .append(getValueForQuery(condition.getValue()));
                 whereAdded = true;
             }
@@ -93,7 +93,6 @@ public class QueryBuilder {
         sql.append("update ").append(tableName).append(" set ");
         boolean first = true;
         for (ColumnInfo column : queryColumns) {
-
                 if (!first) {
                     sql.append(",");
                 } else {
