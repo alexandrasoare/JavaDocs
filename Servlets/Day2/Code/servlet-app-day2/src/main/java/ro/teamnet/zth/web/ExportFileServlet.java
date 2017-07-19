@@ -35,11 +35,11 @@ public class ExportFileServlet extends HttpServlet {
         // TIP: Use lambda expression
         // TIP: Each entry of the map should be <parameterName, parameterValue>
 
-//        Enumeration<String> enumeration = request.getParameterNames();
-//        ArrayList<String> array = Collections.list(enumeration); //Arrays.asList(enumeration)
-        //array.stream().map(x -> paramsMap.put(x, request.getParameter("x")));
-        paramsMap = (HashMap) Collections.list(request.getParameterNames()).stream()
-                .collect(Collectors.toMap(x -> x, x -> request.getParameter(x.toString())));
+        Enumeration<String> enumeration = request.getParameterNames();
+        ArrayList<String> array = Collections.list(enumeration); //Arrays.asList(enumeration)
+        array.stream().forEach(x -> paramsMap.put(x, request.getParameter(x)));
+//        paramsMap = (HashMap) Collections.list(request.getParameterNames()).stream()
+//                .collect(Collectors.toMap(x -> x, x -> request.getParameter(x.toString())));
 
         String passedTemplate = (String) (paramsMap.get("template"));  // the parameter sent from URL (exportFile.jsp)
         String passedFileType = (String) (paramsMap.get("fileType"));  // the parameter sent from URL (exportFile.jsp)
@@ -58,13 +58,13 @@ public class ExportFileServlet extends HttpServlet {
             jasperPrint = JasperFillManager.fillReport(reportStream, paramsMap);
 
             // TODO 2: Set the filename on the response header, based on the request parameters defined above
-//            response.setContentType("application/" + passedFileType);
-//            response.setHeader("Content-Disposition", "attachment;filename="
-//                            + passedTemplate + "." + passedFileType);
+            response.setContentType("application/" + passedFileType);
+            response.setHeader("Content-Disposition", "attachment;filename="
+                            + passedTemplate + "." + passedFileType);
 
-            String fileName = request.getParameter("template") + "."
-                                    + request.getParameter("fileType");
-            response.setHeader("Content-Disposition", "attachment;filename=" + fileName);
+//            String fileName = request.getParameter("template") + "."
+//                                    + request.getParameter("fileType");
+//            response.setHeader("Content-Disposition", "attachment;filename=" + fileName);
 
             JRPdfExporter exporter = new JRPdfExporter();
             exporter.setParameter(JRExporterParameter.JASPER_PRINT, jasperPrint);

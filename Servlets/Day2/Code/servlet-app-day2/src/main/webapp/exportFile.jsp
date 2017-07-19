@@ -31,7 +31,7 @@
             // TODO 1: Use window.open to call ExportFileServlet using its mapping and the following request parameters: template, fileType and username
             // TIP: template = UsernameReport, fileType = pdf
             // TIP: Remember that the application context it's named servlet-app
-            window.open("/servlet-app-day2/exportfile?user="+ username +"&fileType=" + "pdf" + "&template=" + "UsernameReport");
+            window.open("/servlet-app-day2/exportfile?username="+ username +"&fileType=pdf" + "&template=" + "UsernameReport");
         } else {
             // TODO 1: Use window.open to call ExportFileServlet using its mapping and the following request parameters: template and fileType
             // TIP: Remember that the application context it's named servlet-app
